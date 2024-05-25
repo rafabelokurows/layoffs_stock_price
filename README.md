@@ -10,5 +10,18 @@ We're gonna use Causal Inference estimation methods to identify and measure the 
 ## Result
 Thanks to Google's `CausalImpact` R package and some correlated stock as predictors, we calculate a posterior probability of causal effect of 99,89%. 😎
 
-## Data
-[Here](https://github.com/rafabelokurows/layoffs_stock_price/tree/main/data)
+![](./causal_effect_layoffs_sap.png)
+
+[Data](https://github.com/rafabelokurows/layoffs_stock_price/tree/main/data)  
+[Code](https://github.com/rafabelokurows/layoffs_stock_price/blob/main/causal_impact_layoffs_stock_price.R)
+
+## Tools
+R and a few of its packages:
+* [CausalImpact](https://github.com/google/CausalImpact)
+* [MarketMatching](https://github.com/klarsen1/MarketMatching)
+* [tidyquant](https://github.com/business-science/tidyquant)
+
+
+
+
+
